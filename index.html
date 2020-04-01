@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="style.css">
+</HEAD>
+<body>
+	<p id="head">MY CALCULATOR</p>
+	<div id="container">
+		<table>
+				<p><input type="text" id="output" value="0"></p>
+			<tr>
+				<td><button type="button" class="btn" onclick="seven()">7</button></td>
+				<td><button type="button" class="btn" onclick="eight()">8</button></td>
+				<td><button type="button" class="btn" onclick="nine()">9</button></td>
+				<td><button type="button" class="btn" onclick="minus()">-</button></td>
+				<td><button type="button" class="btn" onclick="sine()">sin</button></td>
+			</tr>
+			
+			<tr>
+				<td><button type="button" class="btn" onclick="four()">4</button></td>
+				<td><button type="button" class="btn" onclick="five()">5</button></td>
+				<td><button type="button" class="btn" onclick="six()">6</button></td>
+				<td><button type="button" class="btn" onclick="add()">+</button></td>
+				<td><button type="button" class="btn notset">notset</button></td>
+			</tr>
+			
+			<tr>
+				<td><button type="button" class="btn" onclick="one()">1</button></td>
+				<td><button type="button" class="btn" onclick="two()">2</button></td>
+				<td><button type="button" class="btn" onclick="three()">3</button></td>
+				<td><button type="button" class="btn" onclick="divide()">/</button></td>
+				<td><button type="button" class="btn notset" onclick="backspace()">BACK</button></td>
+			</tr>
+
+			<tr>
+				<td><button type="button" class="btn" onclick="zero()">0</button></td>
+				<td><button type="button" class="btn" onclick="clearOut()">C</button></td>
+				<td><button type="button" class="btn" onclick="equals()">=</button></td>
+				<td><button type="button" class="btn" onclick="multiply()">*</button></td>
+				<td><button type="button" class="btn notset">notset</button></td>
+			</tr>
+		</table>
+	</div>
+</body>
+<script src="jscript.js" type="text/javascript">
+</script>
+</HTML>

@@ -1,0 +1,50 @@
+body{
+	background-color:black;
+}
+
+#head{
+	text-align:center;
+	font-size:40px;
+	border:2px solid black;
+	width:350px;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:70px;
+	color:white;
+}
+
+.btn{
+	width:70px;
+	height:55px;
+	background-color:#e6e6ff;
+	color:blue;
+	font-size:30px;
+	border-radius:15px;
+	font-family:Orbitron;
+}
+
+#output{
+	width:350px;
+	height:50px;
+	margin-left:10px;
+	border:1px solid blue;
+	border-radius: 25px;
+	text-align:right;
+	font-family:Orbitron;
+	font-size:25px;
+	background-color:powderblue;
+	color:#0066ff;
+}
+
+#container{
+	margin:auto auto;
+	border:3px solid blue;
+	border-radius: 45px;
+	width:370px;
+	height:350px;
+	background-color:powderblue;
+}
+
+.notset{
+	font-size:15px;
+}

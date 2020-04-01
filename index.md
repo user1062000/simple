@@ -1,6 +1,6 @@
 <HTML>
 <HEAD>
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="./index.css">
 </HEAD>
 <TITLE>MY PAGE</TITLE>
 <BODY>
